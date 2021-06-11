@@ -4,7 +4,7 @@ Counting dataset for probing cross-modal capabilities of Vision &amp; Language m
 "Seeing Past Words: Testing the Cross-Modal Capabilities of Pretrained V&amp;L Models" by Parcalabescu, L., Gatt, A., Frank, A., and Calixto, I. (2021). Proceedings of the First Workshop on Multimodal Semantic Representations (MMSR), Groningen, to appear. https://arxiv.org/abs/2012.12352
 
 ## Instructions
-Please find the standard, hard and interpolative splits in their respective folders.
+Please find the standard, hard and interpolated splits in their respective folders.
 
 The dataset comes in the following `json` format containing a reference to the Visual7W images, the original question, the original answer, the foil answer and the QA pairs in a declarative format:
 ```python
