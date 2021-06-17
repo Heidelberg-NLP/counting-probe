@@ -65,3 +65,6 @@ Visual7W paper reference:
   year = 2016,
 }
 ```
+
+### Papers with Code entry
+You can find our dataset on Papers with Code here: https://paperswithcode.com/dataset/counting-probe
