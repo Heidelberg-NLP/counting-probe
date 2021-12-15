@@ -43,16 +43,23 @@ The dataset comes in the following `json` format containing a reference to the V
 For the images, please follow the instructions from the [Visual7W Webpage](https://ai.stanford.edu/~yukez/visual7w/) or follow directly [this link](http://vision.stanford.edu/yukezhu/visual7w_images.zip).
 
 ## Reference
-Please acknowledge our [paper](https://arxiv.org/pdf/2012.12352.pdf) at MMSR at IWCS and the original Visual7W paper if you are using this dataset.
+Please acknowledge our [paper](https://aclanthology.org/2021.mmsr-1.4.pdf) at MMSR at IWCS and the original Visual7W paper if you are using this dataset.
 
 ```
-@inproceedings{parcalabescuetal:2021b,
-  author = {Letitia Parcalabescu and Albert Gatt and Anette Frank and Iacer Calixto},
-  title = {{Seeing Past Words: Testing the Cross-Modal Capabilities of Pretrained V{\&}L Models}},
-  year = {2021},
-  booktitle = {Proceedings of the First Workshop on Multimodal Semantic Representations (MMSR)},
-  address = {Groningen},
-  note = {to appear}
+@inproceedings{parcalabescu-etal-2021-seeing,
+    title = "Seeing past words: Testing the cross-modal capabilities of pretrained {V}{\&}{L} models on counting tasks",
+    author = "Parcalabescu, Letitia  and
+      Gatt, Albert  and
+      Frank, Anette  and
+      Calixto, Iacer",
+    booktitle = "Proceedings of the 1st Workshop on Multimodal Semantic Representations (MMSR)",
+    month = jun,
+    year = "2021",
+    address = "Groningen, Netherlands (Online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.mmsr-1.4",
+    pages = "32--44",
+    abstract = "We investigate the reasoning ability of pretrained vision and language (V{\&}L) models in two tasks that require multimodal integration: (1) discriminating a correct image-sentence pair from an incorrect one, and (2) counting entities in an image. We evaluate three pretrained V{\&}L models on these tasks: ViLBERT, ViLBERT 12-in-1 and LXMERT, in zero-shot and finetuned settings. Our results show that models solve task (1) very well, as expected, since all models are pretrained on task (1). However, none of the pretrained V{\&}L models is able to adequately solve task (2), our counting probe, and they cannot generalise to out-of-distribution quantities. We propose a number of explanations for these findings: LXMERT (and to some extent ViLBERT 12-in-1) show some evidence of catastrophic forgetting on task (1). Concerning our results on the counting probe, we find evidence that all models are impacted by dataset bias, and also fail to individuate entities in the visual input. While a selling point of pretrained V{\&}L models is their ability to solve complex tasks, our findings suggest that understanding their reasoning and grounding capabilities requires more targeted investigations on specific phenomena.",
 }
 ```
 
